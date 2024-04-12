@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ogl{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    align-items: center;
+}
+
+.dialog{
+    width: 70%;
+    margin: auto;
+    background-color: #171C22;
+    border: 8px solid #2f3844;
+}
+
+.title{
+    color: #828A93;
+    font-size: 30px;
+}
+
+.vision{
+    width: 100%;
+    height: 165px;
+    color: white;
+    font-size: 35px;
+    padding: 0% 5%;
+}
+.navi{
+    width: 90%;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 0% 3%;
+    border-bottom: 2px solid #EAEBED;
+    margin-bottom: 10px;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212A35;
+    padding: 0px ;
+    border-radius: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, #A430FF 0%, #F318AD 49.74%, #FF2171 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backspace{
+    width: 70px !important;
+    height: 50px!important;
+    border: none;
+    background-color: transparent !important;
+}
+
+.buttons{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.b{
+    width: 22%;
+    height: 60px;
+    margin: 0px;
+    background-color: #171C22;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.bb{
+    background-color: #6344D4 !important;
+}
+
+.equal{
+    background: linear-gradient(90deg, #A430FF 0%, #F318AD 49.74%, #FF2171 100%);
+
+}
+
+.bbc{
+    background-color: #2E3A48;
+}
+
+.dialog_button{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.navi img{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+.close{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.min_res{
+    padding: 3px 5px;
+    border-radius: 10px;
+    border: #B197FC 1px solid;
+    color: #B197FC;
+    font-size: 20px;
+    min-width: 100px;
+    min-height: 27px;
+    font-family: 'Courier New', Courier, monospace;
+}
